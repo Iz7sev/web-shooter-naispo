@@ -4,6 +4,15 @@ Meta Quest 3のハンドトラッキングを使った展示向けの VR / MR �
 
 ## デモ動画
 
+| レベル | 体験 | 動画 |
+| --- | --- | --- |
+| 1 | ガイド付き上昇飛行 | [レベル1を見る（7秒）](docs/naispo-level-1.mp4) |
+| 2 | 高速ブースト飛行 | [レベル2を見る（10秒）](docs/naispo-level-2.mp4) |
+| 3 | 自由スイング | [レベル3を見る（10秒）](docs/naispo-level-3.mp4) |
+
+### Unity Editor での自動収録
+
+
 [![ビル街を飛ぶガイド付き VR 飛行のプレビュー](docs/naispo-vr-demo.png)](docs/naispo-vr-demo.mp4)
 
 [VR デモを見る（MP4・13秒）](docs/naispo-vr-demo.mp4)。Unity Editor で操作を自動再生し、レベル1の待機画面からウェブの巻き取り、引き発射までを収録しました。
