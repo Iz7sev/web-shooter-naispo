@@ -1,0 +1,34 @@
+[
+  {
+    "file": "Asphalt_Color.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_03/asphalt_03_diff_1k.jpg",
+    "asset": "https://polyhaven.com/a/asphalt_03",
+    "license": "CC0-1.0",
+    "sha256": "95ad02e2631c41cf9fdd6a37596cf75adb4fb8a8b6880567cc78ed1c41dc5681",
+    "bytes": 788840
+  },
+  {
+    "file": "Asphalt_Normal.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_03/asphalt_03_nor_gl_1k.jpg",
+    "asset": "https://polyhaven.com/a/asphalt_03",
+    "license": "CC0-1.0",
+    "sha256": "978de8349ce2e9989325099a6fd1f5ea6b2826528e1264606a5c51296b1e2888",
+    "bytes": 974676
+  },
+  {
+    "file": "Pavement_Color.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pavement_01/pavement_01_diff_1k.jpg",
+    "asset": "https://polyhaven.com/a/pavement_01",
+    "license": "CC0-1.0",
+    "sha256": "5555990f88822fe44eb44a67f5abda2c9425c143aad72962a826fcad53954318",
+    "bytes": 436555
+  },
+  {
+    "file": "Pavement_Normal.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pavement_01/pavement_01_nor_gl_1k.jpg",
+    "asset": "https://polyhaven.com/a/pavement_01",
+    "license": "CC0-1.0",
+    "sha256": "5c6210015db8aad8b9e417228f4ccba6d1c7bb7322058c1a9699609101dabc38",
+    "bytes": 507750
+  }
+]

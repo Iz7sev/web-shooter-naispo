@@ -1,0 +1,41 @@
+PASS: startup is stationary beginner standby
+PASS: operator server never runs on development PC
+PASS: participant gesture cannot open operator settings
+PASS: start hands control to participant readiness gate
+PASS: controller-to-hand switch cannot start before both hands appear
+PASS: stable hands begin countdown
+PASS: countdown starts hand-tracked play
+PASS: difficulty cannot change mid-experience
+PASS: level one has the former level two upward flight
+PASS: looking sideways does not steer beginner flight
+PASS: same hand pull triggers guided forward launch
+PASS: level one pull launches upward and forward with bounded speed
+PASS: staff can pause immediately
+PASS: pause freezes body without resetting view position
+PASS: resume counts down without repeating the both-hand gate
+PASS: one visible hand continues the experience
+PASS: tracking loss automatically pauses
+PASS: staff end returns participant to handover state
+PASS: staff can select next visitor level and duration
+PASS: Touch primary button starts readiness handover
+PASS: ordinary Touch buttons cannot interrupt active participant
+PASS: level two reels upward and travels faster while staying centered
+PASS: level two uses the same pull gesture to launch
+PASS: level two pull detaches and launches forward and upward
+PASS: released level two flight descends under bounded gravity
+PASS: staff pause also freezes vertical flight
+PASS: held primary and secondary buttons provide staff emergency end
+PASS: experienced level retains original free swing and wall climbing
+PASS: MR challenge uses physical coordinates and a fixed minute
+PASS: MR easy pickup starts with an actual web hit
+PASS: one small pull automatically retrieves and holds the object
+PASS: held object follows a simple upward hand movement
+PASS: unthrown contact cannot score
+PASS: a thrown object hitting a target scores one point
+PASS: bounces cannot score twice for the same throw
+PASS: paused MR round rejects throws and scores
+PASS: MR round ends after one minute and preserves final score
+PASS: next MR visitor starts at zero while retaining best score
+PASS: session time automatically ends guided experience
+PASS: next visitor preparation resets to the center start
+PASS: new visitor facing and physical offset align to center route before countdown

@@ -1,0 +1,9 @@
+# Web Shooter Naispo
+
+Separate Quest exhibition app based on the preserved Web Swing Lab 1.14.0. Package com.webswinglab.naispo, version 1.2.3 (6). Local-only APK; no com.oculus.app_id is embedded. A draft Meta app was created during investigation but no build was uploaded, and it is not required to launch this local app. Verified in the Quest Unknown Sources / Local apps list. Pinning to the normal home grid is not confirmed.
+
+MR adds a fixed 60-second throw challenge with one score per thrown object, best-score persistence, a timer HUD, and short-pull automatic retrieval. Three staff-selectable VR levels: guided rising flight and faster boost flight with pull launches, and original free swing. Same web/fist/pull/open gestures. A readiness gate waits for both hands, counts down, pauses on tracking loss, and ends after a selected duration. Touch controllers select levels and start in standby; holding primary+secondary for 1.5 seconds ends an experience. During play ordinary controller buttons do not control the participant.
+
+Mac supervision uses Meta browser casting for video and the Quest-served local HTTP operator page for controls. The page requires an ephemeral six-digit pairing code, keeps its session key only in browser session storage, and has no external scripts or services. Startup binds port 18765 on the Quest network interface. The operator server is disabled in Unity Editor so no control panel runs on the development PC. No Mac companion installation is needed.
+
+Build with Unity 6000.6.4f1 Android: Naispo > Switch To Android, Naispo > Run Exhibition Checks, then Naispo > Build Quest APK. Output Builds/WebShooterNaispo.apk. See OPERATIONS_JA.md for event operation. Licenses for common city materials and models are retained in Assets/WebSwing/ThirdPartyLicenses and ASSET_NOTES.txt.

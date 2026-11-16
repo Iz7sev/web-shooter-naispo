@@ -1,0 +1,57 @@
+Third-party city assets added 2026-10-30
+Author: Kenney (https://kenney.nl)
+City Kit Commercial 2.1: https://kenney.nl/assets/city-kit-commercial
+City Kit Roads 2.2: https://kenney.nl/assets/city-kit-roads
+Car Kit 3.1: https://kenney.nl/assets/car-kit
+All three downloaded archives include CC0 license notices, retained under Assets/WebSwing/ThirdPartyLicenses.
+Only 15 selected OBJ models and three colormap textures are included. Material library references removed; runtime assigns shared materials with original UV maps. Mesh geometry is otherwise unchanged.
+Existing procedural city surfaces and objects remain project-generated.
+[
+  {
+    "pack": "commercial",
+    "models": [
+      "building-a",
+      "building-d",
+      "building-g",
+      "building-m",
+      "building-skyscraper-a",
+      "building-skyscraper-c"
+    ],
+    "license": "CC0-1.0",
+    "zip_sha256": "f8b09b081c2bb88bcc126e2dec1cb40fd0dad7e7e591b6c26aaefe96fb35276b"
+  },
+  {
+    "pack": "roads",
+    "models": [
+      "traffic-light",
+      "light-curved",
+      "dumpster",
+      "road-sign-stop",
+      "sign-highway",
+      "construction-barrier"
+    ],
+    "license": "CC0-1.0",
+    "zip_sha256": "374a4552115cbd11b4ec5c930ee31a533562dc78a09af249a655d03f7ea3b959"
+  },
+  {
+    "pack": "cars",
+    "models": [
+      "sedan",
+      "taxi",
+      "van"
+    ],
+    "license": "CC0-1.0",
+    "zip_sha256": "fac7dacac5c7874348cf19729af3ef205f3d366493edaf0a827d93f4fdf3d0c4"
+  }
+]
+Near-field detailed towers added 2026-10-30: project-generated merged architectural meshes.
+Photo surface materials: ambientCG Concrete034 and Bricks051, 1K-JPG Color and NormalGL maps.
+Sources: https://ambientcg.com/view?id=Concrete034 and https://ambientcg.com/view?id=Bricks051
+License: Creative Commons CC0 1.0 Universal, https://docs.ambientcg.com/license/
+Color and normal files are unmodified; runtime geometry UVs tile them at building scale.
+
+1.12: SkylineFacade.png is a project-generated window atlas derived from ambientCG Concrete034 (CC0). WebActionSound effects are synthesized in project code. Kenney Impact Sounds was evaluated but is not included.
+
+1.14: Silk_Color.png / Silk_Normal.png are project-authored procedural fibre maps, not third-party downloads.
+
+Naispo 1.2.0: Poly Haven Asphalt 03 (Charlotte Baglioni / Dario Barresi) and Pavement 01 (Rob Tuytel). CC0; https://polyhaven.com/license . 1K diffuse and OpenGL normal maps, unchanged; no extra geometry. Source URLs and SHA-256 in ThirdPartyLicenses/PolyHaven-Naispo.json.
