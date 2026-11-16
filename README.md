@@ -28,14 +28,6 @@ https://github.com/user-attachments/assets/93bc3d27-085e-449a-9d3e-9da658c97f02
 
 
 
-### Unity Editor での自動収録
-
-
-[![ビル街を飛ぶガイド付き VR 飛行のプレビュー](docs/naispo-vr-demo.png)](docs/naispo-vr-demo.mp4)
-
-[VR デモを見る（MP4・13秒）](docs/naispo-vr-demo.mp4)。Unity Editor で操作を自動再生し、レベル1の待機画面からウェブの巻き取り、引き発射までを収録しました。
-
-
 ## 体験内容
 
 - **VR** — ウェブを撃つ、握る、引く、手を開く操作で街を飛び回ります。スタッフはガイド付き上昇飛行、高速ブースト飛行、自由スイングの3段階から選べます。
