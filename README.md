@@ -26,6 +26,12 @@ https://github.com/user-attachments/assets/46ef27cc-02b8-48c6-8315-3a55fae329ac
 
 https://github.com/user-attachments/assets/93bc3d27-085e-449a-9d3e-9da658c97f02
 
+### MR — 投てきチャレンジ
+
+
+
+https://github.com/user-attachments/assets/eb340c49-c1b3-41e8-bf4f-8ebc861fc38f
+
 
 
 ## 体験内容
