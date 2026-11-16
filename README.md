@@ -1,9 +1,25 @@
-# Web Shooter Naispo
+# Webシューター Naispo
 
-Separate Quest exhibition app based on the preserved Web Swing Lab 1.14.0. Package com.webswinglab.naispo, version 1.2.3 (6). Local-only APK; no com.oculus.app_id is embedded. A draft Meta app was created during investigation but no build was uploaded, and it is not required to launch this local app. Verified in the Quest Unknown Sources / Local apps list. Pinning to the normal home grid is not confirmed.
+Meta Quest 3のハンドトラッキングを使った展示向けの VR / MR 体験です。[Web Swing Lab 1.14.0](https://github.com/Iz7sev/web-swing-lab) をもとに、短時間の体験とスタッフ向けの操作機能を追加しています。
 
-MR adds a fixed 60-second throw challenge with one score per thrown object, best-score persistence, a timer HUD, and short-pull automatic retrieval. Three staff-selectable VR levels: guided rising flight and faster boost flight with pull launches, and original free swing. Same web/fist/pull/open gestures. A readiness gate waits for both hands, counts down, pauses on tracking loss, and ends after a selected duration. Touch controllers select levels and start in standby; holding primary+secondary for 1.5 seconds ends an experience. During play ordinary controller buttons do not control the participant.
+## 体験内容
 
-Mac supervision uses Meta browser casting for video and the Quest-served local HTTP operator page for controls. The page requires an ephemeral six-digit pairing code, keeps its session key only in browser session storage, and has no external scripts or services. Startup binds port 18765 on the Quest network interface. The operator server is disabled in Unity Editor so no control panel runs on the development PC. No Mac companion installation is needed.
+- **VR** — ウェブを撃つ、握る、引く、手を開く操作で街を飛び回ります。スタッフはガイド付き上昇飛行、高速ブースト飛行、自由スイングの3段階から選べます。
+- **MR** — パススルーで見える部屋を舞台にした60秒の投てきチャレンジです。ウェブを短く引くと木箱が自動で近づきます。的に当てると1投につき最大1点が入り、残り時間と最高記録を確認できます。
 
-Build with Unity 6000.6.4f1 Android: Naispo > Switch To Android, Naispo > Run Exhibition Checks, then Naispo > Build Quest APK. Output Builds/WebShooterNaispo.apk. See OPERATIONS_JA.md for event operation. Licenses for common city materials and models are retained in Assets/WebSwing/ThirdPartyLicenses and ASSET_NOTES.txt.
+## 展示での使い方
+
+両手を認識するとカウントダウンが始まり、プレイ中にハンドトラッキングが途切れると一時停止します。VRは設定した体験時間で終了します。スタッフは待機中に Quest の Touch コントローラーでレベルを選択して開始できます。プレイ中は主ボタンと副ボタンを1.5秒長押しすると終了できます。
+
+Macでは Meta のブラウザーキャストで映像を見ながら、Quest が配信する操作パネルで進行を管理できます。Quest と Mac を同じネットワークに接続し、Quest の待機画面に表示されたアドレス（ポート18765）を開いて、6桁のペアリングコードを入力します。Unity Editor では操作パネルは起動しません。詳しい手順は[展示スタッフ向け運用ガイド](OPERATIONS_JA.md)を参照してください。
+
+## Unity で開いてビルドする
+
+1. Android Build Support（SDK / NDK / OpenJDK）付きの Unity **6000.6.4f1** を用意し、このリポジトリのルートを Unity Hub から開きます。
+2. `Naispo > Switch To Android` でビルド先を Android に切り替えます。
+3. `Naispo > Run Exhibition Checks` で展示版のチェックを実行します。
+4. `Naispo > Build Quest APK` を実行します。出力先は `Builds/WebShooterNaispo.apk` です。
+
+バージョンは **1.2.3**（Android versionCode **6**）、パッケージ名は `com.webswinglab.naispo` です。APK はローカルインストール用で、`com.oculus.app_id` は含みません。Quest の「提供元不明／ローカルアプリ」一覧に表示された記録があります。
+
+街のモデル・素材の出典とライセンスは[素材メモ](ASSET_NOTES.txt)と[第三者ライセンス](Assets/WebSwing/ThirdPartyLicenses)を参照してください。
