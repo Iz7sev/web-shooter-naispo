@@ -2,6 +2,13 @@
 
 Meta Quest 3のハンドトラッキングを使った展示向けの VR / MR 体験です。[Web Swing Lab 1.14.0](https://github.com/Iz7sev/web-swing-lab) をもとに、短時間の体験とスタッフ向けの操作機能を追加しています。
 
+## デモ動画
+
+[![ビル街を飛ぶガイド付き VR 飛行のプレビュー](docs/naispo-vr-demo.png)](docs/naispo-vr-demo.mp4)
+
+[VR デモを見る（MP4・13秒）](docs/naispo-vr-demo.mp4)。Unity Editor で操作を自動再生し、レベル1の待機画面からウェブの巻き取り、引き発射までを収録しました。
+
+
 ## 体験内容
 
 - **VR** — ウェブを撃つ、握る、引く、手を開く操作で街を飛び回ります。スタッフはガイド付き上昇飛行、高速ブースト飛行、自由スイングの3段階から選べます。
